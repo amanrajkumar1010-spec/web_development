@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgba(151, 230, 230, 0.712);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;   /* Box1-Box2 wali row aur Box3 ke beech */
+}
+
+/* Box1 aur Box2 ka container */
+body > div {
+    display: flex;
+    gap: 20px;   /* Box1 aur Box2 ke beech */
+}
+
+#Box1 {
+    background-color: rgb(21, 114, 83);
+    color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#BOX2 {
+    background-color: rgb(28, 71, 190);
+    color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+#BOX3 {
+    background-color: rgb(187, 119, 18);
+    color: blue;
+    width: 200px;
+    height: 200px;
+}
